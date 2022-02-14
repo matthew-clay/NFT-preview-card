@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
+/* predefinded css color */
 :root {
   --text-primary-blue: hsl(215, 51%, 70%);
   --text-primary-cyan: hsl(178, 100%, 50%);
@@ -24,6 +25,7 @@ body {
   font-weight: 400;
 }
 
+/* card */
 .card-container {
   height: 100vh;
   display: flex;
@@ -38,6 +40,7 @@ body {
   border-radius: 20px;
 }
 
+/* img */
 .nft-container {
   width: 100%;
   display: flex;
@@ -71,6 +74,7 @@ body {
   opacity: 0.9;
 }
 
+/* content */
 .content-container {
   color: var(--text-regular-white);
   padding: 20px 30px;
