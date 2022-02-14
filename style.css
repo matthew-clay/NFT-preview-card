@@ -53,7 +53,6 @@ body {
   height: 313px;
   margin: 28px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .nft-container::after {
@@ -67,6 +66,7 @@ body {
   align-items: center;
   opacity: 0;
   margin: 28px;
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -75,13 +75,13 @@ body {
 }
 
 /* content */
-.content-container {
+.container {
   color: var(--text-regular-white);
-  padding: 20px 30px;
+  padding: 0 30px;
 }
 
 .title {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   transition: all 0.3s ease;
   user-select: none;
